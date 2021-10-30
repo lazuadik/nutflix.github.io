@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-left a{
+    color: white;
+    max-width: 20px;
+}
+.header-right {
+    color: white;
+    float: left;
+    margin-left: 800px;
+    margin-top:-47px;
+}
+.header-right a{
+    color:white;
+    margin-left: 50px;
+}
+.top-wrapper{
+    padding:100px 0 360px 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/486/1013/273/sherlock-holmes-sherlock-holmes-a-game-of-shadows-robert-downey-jr-wallpaper-preview.jpg);
+    background-size: cover;
+    background-blend-mode:exclusion;
+    color:white;
+    text-align: center;
+}
+.large-banner h1{
+    margin-top:-250px;
+    color:white;
+    margin-left:20px;
+    font-size: 36px;
+    stroke: black;
+}
+.large-banner a{
+    margin-left:20px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    background-size: auto;
+    border-radius: 8px;
+    padding:10px 18px;
+}
+.large-banner p{
+    margin-left:20px;
+    color:white;
+    max-width: 900px;
+    background-color: black;
+    border-radius: 10px;
+    padding:12px 24px;
+}
+.large-banner:hover a{
+    opacity: 0.9;
+}
+main{
+    height:900px;
+    background-color: rgb(29, 29, 29);
+}
+.recommend{
+    margin-top:200px;
+    margin-left: 20px;
+    color: white;
+}
+.content{
+    margin-top:30px;
+    margin-left:20px;
+}
+.enolaholmes img{
+    border-radius: 10px;
+}
+.sherlockholmes img{
+    border-radius: 10px;
+    margin-left:20px;
+}
+.spiritedaway img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.whisperoftheheart img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.kiki img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.howl img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.enolaholmes:hover img{
+    opacity:0.9;
+    transform: scale(1.1)
+}
+.sherlockholmes:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.spiritedaway:hover img{
+    opacity:0.9;
+    transform: scale(1.1);
+}
+.whisperoftheheart:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.kiki:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.howl:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+footer{
+    height:80px;
+    background-color: black;
+}
+.about ul{
+    color:white;
+
+}
+.about li{
+    color: white;
+    margin-top:15px;
+}
